@@ -1,6 +1,6 @@
-With Docker
+# **With Docker**
 
-To start the application
+## To start the application
 Step 1: Create docker network
 
 docker network create mongo-network 
@@ -18,7 +18,7 @@ docker run -d -p 8081:8081 -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG
 
 NOTE: creating docker-network in optional. You can start both containers in a default network. In this case, just emit --net flag in docker run command
 
-With Docker Compose
+## With Docker Compose
 
 To start the application
 Step 1: start mongodb and mongo-express
