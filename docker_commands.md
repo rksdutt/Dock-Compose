@@ -1,9 +1,9 @@
-commands
+# **Commands**
 
-create docker network
+## Create docker network
 docker network create mongo-network
 
-start mongodb
+### Start mongodb
 docker run -d 
 -p 27017:27017 
 -e MONGO_INITDB_ROOT_USERNAME=admin 
