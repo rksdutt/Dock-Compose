@@ -35,6 +35,7 @@ http://localhost:8081
 
 
 Step 3: create my-db db and my-collection collection and document with {myid: 1, data: "some dynamic data loaded from db"} in mongo-express
+
 Step 4: Access you nodejs application UI from browser
 
 http://localhost:3000
