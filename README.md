@@ -4,6 +4,18 @@
 Step 1: Create docker network
 
 "docker network create mongo-network"
+package main
+
+import "fmt"
+
+const (
+	_ = iota + 3
+	x
+)
+
+func main() {
+	fmt.Printf("%v\n", x)
+}
 
 
 Step 2: start mongodb
